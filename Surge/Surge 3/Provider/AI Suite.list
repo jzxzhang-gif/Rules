@@ -217,9 +217,6 @@ DOMAIN,optimizationguide-pa.googleapis.com
 DOMAIN,play.google.com
 DOMAIN,ssl.gstatic.com
 DOMAIN,streetviewpixels-pa.googleapis.com
-DOMAIN,www.google.com
-DOMAIN,www.googleapis.com
-DOMAIN,www.gstatic.com
 
 # > Google Generative Language API
 DOMAIN-SUFFIX,geller-pa.googleapis.com
