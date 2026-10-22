@@ -169,6 +169,24 @@ DOMAIN,cloudcode-pa.googleapis.com
 DOMAIN,daily-cloudcode-pa.googleapis.com
 DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com
 
+# > Google Antigravity Enterprise / Gemini Enterprise
+# https://antigravity.google/docs/enterprise#network-allowlists-and-mtls-endpoints
+# Global, US, EU and mTLS endpoints; shared API traffic also uses the AI egress
+DOMAIN,aiplatform.eu.rep.googleapis.com
+DOMAIN,aiplatform.googleapis.com
+DOMAIN,aiplatform.mtls.googleapis.com
+DOMAIN,aiplatform.us.rep.googleapis.com
+DOMAIN,businessaicode.eu.rep.googleapis.com
+DOMAIN,businessaicode.googleapis.com
+DOMAIN,businessaicode.mtls.googleapis.com
+DOMAIN,businessaicode.us.rep.googleapis.com
+DOMAIN,discoveryengine.googleapis.com
+DOMAIN,discoveryengine.mtls.googleapis.com
+DOMAIN,eu-discoveryengine.googleapis.com
+DOMAIN,eu-discoveryengine.mtls.googleapis.com
+DOMAIN,us-discoveryengine.googleapis.com
+DOMAIN,us-discoveryengine.mtls.googleapis.com
+
 # > Google Chrome DevTools AI assistance
 # Hong Kong is excluded from the supported locations
 # https://developer.chrome.com/docs/devtools/ai-assistance/get-started
@@ -268,8 +286,10 @@ DOMAIN-SUFFIX,kiro.dev
 DOMAIN,q.eu-central-1.amazonaws.com
 DOMAIN,q.us-east-1.amazonaws.com
 
-# > Meta AI
+# > Meta AI / Muse
+# https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/
 DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,muse.ai
 
 # > Microsoft Copilot
 # Retained for macOS app availability; web/mobile support alone is insufficient
