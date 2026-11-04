@@ -3,7 +3,7 @@
 
 # > Apple Intelligence / Siri ChatGPT
 # Keep Apple Relay and Siri region lookups on the same AI egress
-# https://github.com/RocM301/Apple-Rule/blob/main/Apple-AI.list
+# https://github.com/RocM301/Apple-Rule/blob/main/Apple%20AI-New
 DOMAIN-SUFFIX,api-siri-prod.apple.com
 DOMAIN-SUFFIX,apple-carry-relay.cloudflare.com
 DOMAIN-SUFFIX,apple-relay.akamaized.net
